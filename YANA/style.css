@@ -1,0 +1,160 @@
+/**
+ * Yana for Windows par Valentin CARRUESCO aka idleman <idleman@idleman.fr> 
+ * Licence Creative Commons -by -sa -nc
+ * Feuille de style pour les fenetres de l'application
+**/
+
+body,html,h1,div,ul{
+	margin:0;
+	font-family:Calibri,Arial,Verdana;
+	padding:0;
+}
+
+.header{
+	background-color: #222222;
+	width:100%;
+	color:#ffffff;
+	padding:5px;
+}
+
+.content{
+	background-color: #ffffff;
+	width:100%;
+	color:#222222;
+	padding:10px;
+}
+
+#messages{
+    overflow:auto;
+    height:325px;
+    padding-right:5px;
+    scrollbar-face-color: #cecece;
+    scrollbar-shadow-color: #ffffff;
+    scrollbar-highlight-color:#cecece;
+    scrollbar-3dlight-color: #cecece;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-track-color: #ffffff;
+    scrollbar-arrow-color: #ffffff;
+	scrollbar-width: 5px;
+}
+
+.content h1{
+	font-size:20px;
+}
+
+.footer p{
+    text-align:center;
+}
+
+.footer{
+	background-color: #222222;
+	height:20px;
+	width:100%;
+	color:#ffffff;
+	padding:10px;
+}
+
+.logo{               
+	height:57px;
+	width:57px;
+	float:left;
+}
+
+.header h1{
+    float:left
+}
+
+.configButton{
+	float:right;
+    display:block;
+    margin:0;
+	cursor:pointer;
+    padding:0;
+}
+
+.messageContainer{
+    margin:10px;
+}
+
+.messageContainer .messageResponse{
+    margin-top:3px;
+    float:left;
+    width:10px;
+    height:10px;
+}
+.messageContainer .messageQuestion{
+    float:right;
+    width:10px;
+    height:10px;
+}
+
+.message{
+    background-color:#BDDFEF;
+    padding:5px;
+    margin:0px;
+    max-width:50%;
+    word-wrap: break-word;
+    float:left
+}
+
+.message small{
+	font-size:10px;
+    color:#ffffff;
+	display:block;
+	font-weight:bold;
+}
+
+#logList{
+	font-family:Calibri,Verdana,Arial;
+    font-size:12px;
+    color:#222222;
+	height:100%;
+	width:100%;
+}
+
+#logList li{
+    list-style-type:none;
+    padding:5px;           
+    margin-top:5px;
+    border-bottom: 1px solid #cecece;
+}
+
+.clear{
+    clear:both;
+}
+
+#logList li small{
+    color:#6d6d6d;
+    font-size:12px;
+    float:left;
+}
+
+#logList li p{
+    font-size:12px;
+    float:left;
+    padding-left:5px;
+    margin-left:5px;
+}
+
+#logList li p.error{
+    border-left:5px solid #ff9d11;
+}
+
+#logList li p.notice{
+    border-left:5px solid #00b6f0;
+                        
+}
+
+#logBox{
+    overflow:auto;
+    height:100%;
+	width:100%;
+    scrollbar-face-color: #cecece;
+    scrollbar-shadow-color: #ffffff;
+    scrollbar-highlight-color:#cecece;
+    scrollbar-3dlight-color: #cecece;
+    scrollbar-darkshadow-color: #ffffff;
+    scrollbar-track-color: #ffffff;
+    scrollbar-arrow-color: #ffffff;
+	scrollbar-width: 5px;
+}

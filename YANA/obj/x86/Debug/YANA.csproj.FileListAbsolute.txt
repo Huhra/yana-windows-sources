@@ -1,0 +1,62 @@
+C:\Users\Administrateur\AppData\Local\Temporary Projects\YANA\bin\Debug\YANA.exe
+C:\Users\Administrateur\AppData\Local\Temporary Projects\YANA\bin\Debug\YANA.pdb
+C:\Users\Administrateur\AppData\Local\Temporary Projects\YANA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrateur\AppData\Local\Temporary Projects\YANA\obj\x86\Debug\YANA.MainWindow.resources
+C:\Users\Administrateur\AppData\Local\Temporary Projects\YANA\obj\x86\Debug\YANA.Properties.Resources.resources
+C:\Users\Administrateur\AppData\Local\Temporary Projects\YANA\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrateur\AppData\Local\Temporary Projects\YANA\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrateur\AppData\Local\Temporary Projects\YANA\obj\x86\Debug\YANA.exe
+C:\Users\Administrateur\AppData\Local\Temporary Projects\YANA\obj\x86\Debug\YANA.pdb
+C:\Users\Administrateur\AppData\Local\Temporary Projects\YANA\obj\x86\Debug\YANA.img.resources
+C:\Workpaces\CS\YANA\YANA\obj\x86\Debug\YANA.exe
+C:\Workpaces\CS\YANA\YANA\obj\x86\Debug\YANA.pdb
+C:\Workpaces\CS\YANA\YANA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Workpaces\CS\YANA\YANA\obj\x86\Debug\YANA.MainWindow.resources
+C:\Workpaces\CS\YANA\YANA\obj\x86\Debug\YANA.Properties.Resources.resources
+C:\Workpaces\CS\YANA\YANA\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Workpaces\CS\YANA\YANA\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Workpaces\CS\YANA\YANA\bin\Debug\YANA.exe
+C:\Workpaces\CS\YANA\YANA\bin\Debug\YANA.pdb
+D:\Creations\CS\YANA\YANA\obj\x86\Debug\YANA.exe
+D:\Creations\CS\YANA\YANA\obj\x86\Debug\YANA.pdb
+D:\Creations\CS\YANA\YANA\bin\Debug\YANA.exe
+D:\Creations\CS\YANA\YANA\bin\Debug\YANA.pdb
+D:\Creations\CS\YANA\YANA\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Creations\CS\YANA\YANA\obj\x86\Debug\YANA.DebugWindow.resources
+D:\Creations\CS\YANA\YANA\obj\x86\Debug\YANA.MainWindow.resources
+D:\Creations\CS\YANA\YANA\obj\x86\Debug\YANA.Properties.Resources.resources
+D:\Creations\CS\YANA\YANA\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Creations\CS\YANA\YANA\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Creations\CS\yana-windows\YANA\bin\Debug\YANA.exe
+D:\Creations\CS\yana-windows\YANA\bin\Debug\YANA.pdb
+D:\Creations\CS\yana-windows\YANA\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Creations\CS\yana-windows\YANA\obj\x86\Debug\YANA.ConfigurationWindow.resources
+D:\Creations\CS\yana-windows\YANA\obj\x86\Debug\YANA.DebugWindow.resources
+D:\Creations\CS\yana-windows\YANA\obj\x86\Debug\YANA.MainWindow.resources
+D:\Creations\CS\yana-windows\YANA\obj\x86\Debug\YANA.Properties.Resources.resources
+D:\Creations\CS\yana-windows\YANA\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Creations\CS\yana-windows\YANA\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Creations\CS\yana-windows\YANA\obj\x86\Debug\YANA.exe
+D:\Creations\CS\yana-windows\YANA\obj\x86\Debug\YANA.pdb
+C:\Workpaces\CS\yana-windows\YANA\obj\x86\Debug\YANA.exe
+C:\Workpaces\CS\yana-windows\YANA\obj\x86\Debug\YANA.pdb
+C:\Workpaces\CS\yana-windows\YANA\bin\Debug\YANA.exe
+C:\Workpaces\CS\yana-windows\YANA\bin\Debug\YANA.pdb
+C:\Workpaces\CS\yana-windows\YANA\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Workpaces\CS\yana-windows\YANA\obj\x86\Debug\YANA.ConfigurationWindow.resources
+C:\Workpaces\CS\yana-windows\YANA\obj\x86\Debug\YANA.DebugWindow.resources
+C:\Workpaces\CS\yana-windows\YANA\obj\x86\Debug\YANA.MainWindow.resources
+C:\Workpaces\CS\yana-windows\YANA\obj\x86\Debug\YANA.Properties.Resources.resources
+C:\Workpaces\CS\yana-windows\YANA\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Workpaces\CS\yana-windows\YANA\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Workspace\CS\yana-windows\YANA\obj\x86\Debug\YANA.exe
+D:\Workspace\CS\yana-windows\YANA\obj\x86\Debug\YANA.pdb
+D:\Workspace\CS\yana-windows\YANA\bin\Debug\YANA.exe
+D:\Workspace\CS\yana-windows\YANA\bin\Debug\YANA.pdb
+D:\Workspace\CS\yana-windows\YANA\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Workspace\CS\yana-windows\YANA\obj\x86\Debug\YANA.ConfigurationWindow.resources
+D:\Workspace\CS\yana-windows\YANA\obj\x86\Debug\YANA.DebugWindow.resources
+D:\Workspace\CS\yana-windows\YANA\obj\x86\Debug\YANA.MainWindow.resources
+D:\Workspace\CS\yana-windows\YANA\obj\x86\Debug\YANA.Properties.Resources.resources
+D:\Workspace\CS\yana-windows\YANA\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Workspace\CS\yana-windows\YANA\obj\x86\Debug\GenerateResource.write.1.tlog

@@ -1,0 +1,19 @@
+12/08/2013 15:42:01 | <!> ERREUR: Timeout sur l'url :http://129.0.0.1/perso/yana-server/action.php?action=GET_SPEECH_COMMAND&token=7a8da4f86d16884c33b82d57e1b6a2164617faca (url invalide ou yana-server inactif)
+12/08/2013 17:30:46 | <!> ERREUR: Timeout sur l'url :http://129.0.0.1/perso/yana-server/action.php?action=GET_SPEECH_COMMAND&token=7a8da4f86d16884c33b82d57e1b6a2164617faca (url invalide ou yana-server inactif)
+12/08/2013 17:30:46 | <!> ERREUR: La demande a été abandonnée : La demande a été annulée.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans C:\Workpaces\CS\yana-windows\YANA\TrayIcon.cs:ligne 141
+10/09/2013 21:23:17 | <!> ERREUR: Timeout sur l'url :http://129.0.0.1/perso/yana-server/action.php?action=GET_SPEECH_COMMAND&token=7a8da4f86d16884c33b82d57e1b6a2164617faca (url invalide ou yana-server inactif)
+10/09/2013 21:23:18 | <!> ERREUR: La demande a été abandonnée : La demande a été annulée.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans C:\Workpaces\CS\yana-windows\YANA\TrayIcon.cs:ligne 141
+10/09/2013 21:23:22 | <!> ERREUR: Timeout sur l'url :http://129.0.0.1/perso/yana-server/action.php?action=GET_EVENT&token=7a8da4f86d16884c33b82d57e1b6a2164617faca (url invalide ou yana-server inactif)
+10/09/2013 21:23:22 | <!> ERREUR: La demande a été abandonnée : La demande a été annulée.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans C:\Workpaces\CS\yana-windows\YANA\Control.cs:ligne 60
+10/09/2013 21:23:41 | <!> ERREUR: Impossible de se connecter au serveur distant
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans C:\Workpaces\CS\yana-windows\YANA\TrayIcon.cs:ligne 141
+10/09/2013 21:23:46 | <!> ERREUR: Impossible de se connecter au serveur distant
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans C:\Workpaces\CS\yana-windows\YANA\Control.cs:ligne 60

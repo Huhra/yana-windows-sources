@@ -1,0 +1,76 @@
+/*
+ 
+ PromptBuilder p = new PromptBuilder();
+
+
+	PromptStyle s1 = new PromptStyle();
+	s1.Volume = PromptVolume.ExtraLoud;
+	s1.Rate = PromptRate.Slow;
+	s1.Emphasis = PromptEmphasis.Reduced;
+
+	p.StartStyle(s1);
+
+	p.StartParagraph();
+	p.StartSentence();
+	p.AppendText("Hello world, its's");
+	p.AppendTextWithHint("07/10/2007", SayAs.Date);
+	p.EndSentence();
+	p.EndParagraph();
+
+	p.EndStyle();
+
+	p.AppendBreak(new TimeSpan(10000000));
+
+	PromptStyle s2 = new PromptStyle();
+	s2.Rate = PromptRate.Medium;
+	s2.Volume = PromptVolume.ExtraLoud;
+	s2.Emphasis = PromptEmphasis.Reduced;
+
+	p.StartStyle(s2);
+
+	p.StartParagraph();
+	p.AppendText("welcome on the");
+	p.AppendTextWithAlias(".Net", "dot net");
+	p.AppendText("planet!");
+	p.EndParagraph();
+
+	p.StartParagraph();
+	p.StartSentence();
+	p.AppendTextWithHint("VB", SayAs.SpellOut);
+	p.AppendText("2005 is really a wonderful language !");
+	p.EndSentence();
+
+	p.StartSentence();
+	p.AppendTextWithHint("SSML", SayAs.SpellOut);
+	p.AppendText("standard is now included in SAPI");
+	p.AppendTextWithHint("5.3", SayAs.SpellOut);
+	p.EndSentence();
+	p.EndParagraph();
+
+	p.EndStyle();
+
+	p.AppendBreak(new TimeSpan(10000000));
+
+	p.AppendText("Please, visit my website at", PromptRate.Slow);
+	p.AppendTextWithHint("http://", SayAs.SpellOut);
+	p.AppendText("webman dot developpez dot com");
+
+	SpeechSynthesizer synth = new SpeechSynthesizer();
+	synth.SetOutputToWaveFile("c:\\voix.wav");
+	synth.Speak(p);
+	synth.SetOutputToNull();
+ 
+ 
+    http://webman.developpez.com/articles/dotnet/texttospeech/
+    Voici quelques membres de la classe PromptBuilder qui méritent que l'on s'attarde dessus. Cette liste n'est pas exhaustive, et je vous renvoie donc vers la documentation officielle dont le lien est disponible en fin d'article dans la partie "Ressources".
+
+    AppendAudio() : cette méthode permet d'ajouter le contenu d'un fichier wav a notre objet PromptBuilder.
+    AppendText() : cette méthode permet d'ajouter un texte simple à synthétiser, on peut passer en plus à la méthode la vitesse de diction souhaitée pour ce texte.
+    AppendTextWithHint() : cette méthode permet également d'ajouter du texte, mais en plus elle permet de définir la manière de prononcer ce texte. Une énumération (SayAs) nous permet de choisir parmi une liste de prononciation définie, cela sera par exemple épeler le texte, le prononcer comme une date ou comme une heure…
+    AppendTextWithAlias() : comme les deux précédentes cette méthode permet d'ajouter du texte a synthétiser mais elle permet de définir un alias qui correspondra a la manière de prononcer le texte qui peut être différente de la manière dont il est écrit. Un exemple simple pourrait être " .Net " que l'on veut prononcer comme " dot net ".
+    AppendBreak() : cette méthode permet de marquer une pause, une rupture dans la lecture, qui peut être plus ou moins longue.
+    StartStyle() / End Style() : permettent de définir un style (vitesse, volume, emphase…) pour le texte inclus entre ces deux méthodes. L'exemple que je donne un peu plus haut vous donne un bon aperçu de ce qu'il est possible de faire avec un objet PromptStyle.
+    StartParagraph()/EndParagraph() : permettent de délimiter un paragraphe.
+    StartSentence()/EndSentence() : permettent de délimiter une phrase.
+    SayAs : cette énumération contient les prononciations prédéfinies que l'on peut entre autre spécifier en paramètre de la méthode AppendTextWithHint() que l'on vient de voir. Voici le contenu exhaustif de cette énumération : Date, Day, DayMonth, DayMonthYear, Month, MonthDay, MonthDayYear, MonthYear, NumberCardinal, NumberOrdinal, SpellOut, Telephone, Text, Time, Time12, Time24, Year, YearMonth, YearMonthDay
+ */
