@@ -12,6 +12,8 @@ using System.Net;
 using System.IO;
 using System.Threading;
 using System.Windows.Forms;
+using System.Security.Cryptography.X509Certificates;
+using System.Net.Security;
 
 namespace YANA
 {
@@ -20,6 +22,8 @@ namespace YANA
 
         public static void get(string url, AsyncCallback method)
         {
+            SSLValidator.OverrideValidation();
+
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
             request.ContentType = "text/html";
             request.Method = WebRequestMethods.Http.Get;
@@ -62,6 +66,20 @@ namespace YANA
             // request.EndGetResponse(result);
         }
 
+    }
 
+    public static class SSLValidator
+    {
+        private static bool OnValidateCertificate(object sender, X509Certificate certificate, X509Chain chain,
+                                                  SslPolicyErrors sslPolicyErrors)
+        {
+            return true;
+        }
+        public static void OverrideValidation()
+        {
+            ServicePointManager.ServerCertificateValidationCallback =
+                OnValidateCertificate;
+            ServicePointManager.Expect100Continue = true;
+        }
     }
 }

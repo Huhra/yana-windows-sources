@@ -41,6 +41,10 @@ namespace YANA
             {
                 Function.error(e);
             }
+
+
+
+
             //Instanciation du tray icon et de son menu
             trayMenu = new ContextMenu();
             trayIcon = new NotifyIcon();
@@ -189,6 +193,9 @@ namespace YANA
             }
 
         }
+
+
+
 
         public static void timing(object sender, EventArgs e)
         {

@@ -17,3 +17,84 @@
 10/09/2013 21:23:46 | <!> ERREUR: Impossible de se connecter au serveur distant
  L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
    à YANA.Control.receive(IAsyncResult result) dans C:\Workpaces\CS\yana-windows\YANA\Control.cs:ligne 60
+14/11/2013 11:04:58 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+14/11/2013 11:05:02 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+14/11/2013 11:05:07 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+14/11/2013 11:07:48 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+14/11/2013 11:07:53 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+14/11/2013 11:07:58 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+14/11/2013 11:39:18 | <!> ERREUR: Timeout sur l'url :https://srvmail.sys1.fr/ (url invalide ou yana-server inactif)
+14/11/2013 11:39:18 | <!> ERREUR: La demande a été abandonnée : La demande a été annulée.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+14/11/2013 11:39:19 | <!> ERREUR: Impossible de se connecter au serveur distant
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+14/11/2013 11:39:24 | <!> ERREUR: Impossible de se connecter au serveur distant
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 60
+14/11/2013 11:39:42 | <!> ERREUR: La connexion sous-jacente a été fermée : Impossible d'établir une relation de confiance pour le canal sécurisé SSL/TLS.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+14/11/2013 11:39:43 | <!> ERREUR: Impossible de se connecter au serveur distant
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+14/11/2013 11:39:48 | <!> ERREUR: Impossible de se connecter au serveur distant
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 60
+14/11/2013 11:40:48 | <!> ERREUR: Timeout sur l'url :http://127.0.0.1/perso/yana-server/action.php?action=GET_SPEECH_COMMAND&token=cfaf6bccc644ded713d83040435932afc20bd58b (url invalide ou yana-server inactif)
+14/11/2013 11:40:52 | <!> ERREUR: Impossible de se connecter au serveur distant
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+14/11/2013 11:40:52 | <!> ERREUR: Impossible de se connecter au serveur distant
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 60
+14/11/2013 11:40:52 | <!> ERREUR: Timeout sur l'url :http://127.0.0.1/perso/yana-server/action.php?action=GET_EVENT&token=cfaf6bccc644ded713d83040435932afc20bd58b (url invalide ou yana-server inactif)
+14/11/2013 11:40:52 | <!> ERREUR: La connexion sous-jacente a été fermée : Impossible d'établir une relation de confiance pour le canal sécurisé SSL/TLS.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+14/11/2013 11:42:40 | <!> ERREUR: La connexion sous-jacente a été fermée : Impossible d'établir une relation de confiance pour le canal sécurisé SSL/TLS.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receiveTest(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 207
+14/11/2013 11:42:41 | <!> ERREUR: Impossible de se connecter au serveur distant
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 153
+14/11/2013 11:43:06 | <!> ERREUR: La connexion sous-jacente a été fermée : Impossible d'établir une relation de confiance pour le canal sécurisé SSL/TLS.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receiveTest(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 207
+14/11/2013 11:43:06 | <!> ERREUR: Impossible de se connecter au serveur distant
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 153
+14/11/2013 11:43:11 | <!> ERREUR: Impossible de se connecter au serveur distant
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 60
+14/11/2013 11:43:24 | <!> ERREUR: Impossible de se connecter au serveur distant
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 153
+14/11/2013 11:43:28 | <!> ERREUR: Impossible de se connecter au serveur distant
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 60
+14/11/2013 11:43:46 | <!> ERREUR: La connexion sous-jacente a été fermée : Impossible d'établir une relation de confiance pour le canal sécurisé SSL/TLS.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receiveTest(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 207
+14/11/2013 11:43:47 | <!> ERREUR: Impossible de se connecter au serveur distant
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 153
+14/11/2013 11:45:57 | <!> ERREUR: Impossible de se connecter au serveur distant
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 153
+14/11/2013 11:46:01 | <!> ERREUR: Impossible de se connecter au serveur distant
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 60
+14/11/2013 11:46:32 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+14/11/2013 11:46:35 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+14/11/2013 11:51:00 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+14/11/2013 11:51:03 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+14/11/2013 11:51:30 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+14/11/2013 11:51:42 | <!> ERREUR: La connexion sous-jacente a été fermée : Impossible d'établir une relation de confiance pour le canal sécurisé SSL/TLS.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receiveTest(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 207
+14/11/2013 11:51:42 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+14/11/2013 11:51:53 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+14/11/2013 11:51:56 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+14/11/2013 11:52:22 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
