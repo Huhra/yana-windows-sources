@@ -114,8 +114,6 @@ body,html,h1,div,ul{
 
 #logList li{
     list-style-type:none;
-    padding:5px;           
-    margin-top:5px;
     border-bottom: 1px solid #cecece;
 }
 
@@ -157,4 +155,10 @@ body,html,h1,div,ul{
     scrollbar-track-color: #ffffff;
     scrollbar-arrow-color: #ffffff;
 	scrollbar-width: 5px;
+}
+
+.definition, a.definition{
+	text-decoration:underline;
+	color:#00b6f0;
+	cursor:help;
 }

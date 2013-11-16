@@ -71,3 +71,14 @@ C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\GenerateResource.read.1.
 C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Workspace\CS\yana-windows-sources\YANA\bin\Debug\YANA.exe
 C:\Workspace\CS\yana-windows-sources\YANA\bin\Debug\YANA.pdb
+D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\YANA.exe
+D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\YANA.pdb
+D:\Workspace\CS\yana-windows-sources\YANA\bin\Debug\YANA.exe
+D:\Workspace\CS\yana-windows-sources\YANA\bin\Debug\YANA.pdb
+D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\YANA.ConfigurationWindow.resources
+D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\YANA.DebugWindow.resources
+D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\YANA.MainWindow.resources
+D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\YANA.Properties.Resources.resources
+D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\GenerateResource.write.1.tlog

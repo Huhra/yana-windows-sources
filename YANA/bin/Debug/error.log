@@ -98,3 +98,51 @@
 14/11/2013 11:51:53 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
 14/11/2013 11:51:56 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
 14/11/2013 11:52:22 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+16/11/2013 14:58:59 | <!> ERREUR: Le serveur distant a retourné une erreur : (404) Introuvable.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+16/11/2013 14:59:03 | <!> ERREUR: Le serveur distant a retourné une erreur : (404) Introuvable.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 60
+16/11/2013 15:24:34 | <!> ERREUR: Le serveur distant a retourné une erreur : (404) Introuvable.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 154
+16/11/2013 15:24:39 | <!> ERREUR: Le serveur distant a retourné une erreur : (404) Introuvable.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+16/11/2013 15:26:33 | <!> ERREUR: Le serveur distant a retourné une erreur : (404) Introuvable.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+16/11/2013 15:26:38 | <!> ERREUR: Le serveur distant a retourné une erreur : (404) Introuvable.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+16/11/2013 15:29:28 | <!> ERREUR: Le serveur distant a retourné une erreur : (404) Introuvable.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+16/11/2013 15:29:33 | <!> ERREUR: Le serveur distant a retourné une erreur : (404) Introuvable.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+16/11/2013 15:31:22 | <!> ERREUR: Le serveur distant a retourné une erreur : (404) Introuvable.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+16/11/2013 15:31:27 | <!> ERREUR: Le serveur distant a retourné une erreur : (404) Introuvable.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+16/11/2013 15:36:11 | <!> ERREUR: Le serveur distant a retourné une erreur : (404) Introuvable.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+16/11/2013 15:36:15 | <!> ERREUR: Le serveur distant a retourné une erreur : (404) Introuvable.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+16/11/2013 15:36:51 | <!> ERREUR: Le serveur distant a retourné une erreur : (404) Introuvable.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+16/11/2013 15:36:56 | <!> ERREUR: Le serveur distant a retourné une erreur : (404) Introuvable.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+16/11/2013 15:39:34 | <!> ERREUR: Le serveur distant a retourné une erreur : (404) Introuvable.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+16/11/2013 15:39:39 | <!> ERREUR: Le serveur distant a retourné une erreur : (404) Introuvable.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51

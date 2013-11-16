@@ -30,20 +30,11 @@ namespace YANA
             try
             {
                 Configuration config = Configuration.getInstance();
-                Function.log("Ecoute évenement sur :" + Program.API_URL);
+                
                 if (!LAUNCHED)
                 {
                     LAUNCHED = true;
                     Http.get(Program.API_URL + Program.EVENT_ACTION + "&token=" + Program.TOKEN, new AsyncCallback(receive));
-                    /* 
-                     * Http request = new Http();
-                     request.Url = Program.API_URL + Program.EVENT_ACTION;
-                     */
-
-                }
-                else
-                {
-                    Function.log("Ecoute évenement avortée, processus déjà lancé et non terminé");
                 }
 
             }
@@ -62,7 +53,7 @@ namespace YANA
                 using (StreamReader sr = new StreamReader(responseStream))
                 {
                     String responseText = sr.ReadToEnd();
-                    Function.log("Reponse :" + responseText);
+                    
                     try
                     {
                         Json jsonResponse = new Json(responseText);
@@ -96,7 +87,8 @@ namespace YANA
 
                 if (jsonResponse.fExist("type"))
                 {
-                    Function.log(jsonResponse.fGetString("type"));
+                    Function.log("Réponse à l'écoute sur évenement :" + jsonResponse.ToString());
+             
                     switch (jsonResponse.fGetString("type"))
                     {
                         case "talk":

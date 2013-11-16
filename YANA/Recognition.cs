@@ -76,28 +76,33 @@ namespace YANA
 
         public void speechRecognized(Object Sender, SpeechRecognizedEventArgs e)
         {
-            Function.log(e.Result.Text + " - " + e.Result.Confidence);
+            
             if (!recognizerState)
                 return;
             foreach (Json command in commands)
             {
                 float confidence = command.fGetFloat("confidence");
-                if (command.fGetString("command") == e.Result.Text && e.Result.Confidence >= confidence)
+                if (command.fGetString("command") == e.Result.Text)
                 {
-                    Function.log("Commande: " + command.fGetString("url"));
-                    MainWindow mainWindow = MainWindow.getInstance();
-                    mainWindow.Invoke((MethodInvoker)delegate
+                    Function.log(e.Result.Text + " - reconnue à " + e.Result.Confidence + " sur " + confidence + " : " + (e.Result.Confidence >= confidence ? "Validée" : "Invalidée (<a class='definition' title='Si la commande était bonne, le micro ne doit pas être assez sensible ou de bonne qualité, tu peux changer ton micro ou baisser les seuils de tolérances sous yana-server'>En savoir plus</a>) "));
+                 
+                    if (e.Result.Confidence >= confidence)
                     {
-                        mainWindow.addMessage(e.Result.Text, false);
-                    });
-                    if (command.fGetString("preAction") != null)
-                    {
-                        Json preAction = new Json(command.fGetString("preAction"));
-                        Control.handleResponse(preAction);
+                        Function.log("Url à lancer : " + command.fGetString("url"));
+                        MainWindow mainWindow = MainWindow.getInstance();
+                        mainWindow.Invoke((MethodInvoker)delegate
+                        {
+                            mainWindow.addMessage(e.Result.Text, false);
+                        });
+                        if (command.fGetString("preAction") != null)
+                        {
+                            Json preAction = new Json(command.fGetString("preAction"));
+                            Control.handleResponse(preAction);
+                        }
+                        if (command.fGetString("url") != null) Http.get(command.fGetString("url") + "&token=" + Program.TOKEN, new AsyncCallback(receive));
                     }
-                    if (command.fGetString("url") != null) Http.get(command.fGetString("url") + "&token=" + Program.TOKEN, new AsyncCallback(receive));
                 }
-
+            }
 
                 if ("Montre toi" == e.Result.Text && e.Result.Confidence >= 0.85)
                 {
@@ -119,7 +124,7 @@ namespace YANA
                 {
                     Application.Restart();
                 }
-            }
+            
         }
 
 

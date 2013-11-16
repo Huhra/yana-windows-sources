@@ -112,7 +112,7 @@ namespace YANA
                 {
                     Function.error(e2);
                     Function.error("La reconnaissance vocale ne fonctionnera pas");
-                    mainWindow.addMessage("La reconnaissance vocale ne fonctionnera pas... :(", true);
+                    mainWindow.addMessage(Program.MSG_NO_SERVER_CONNEXION, true);
                 }
 
                 //Lancement d'une requete d'écoute des nouveau evenements toutes les x secondes (parametre CHECK_INTERVAL)
@@ -133,7 +133,7 @@ namespace YANA
                 {
                     Function.error(e3);
                     Function.error("L'écoute d'évenements n'aura pas lieu");
-                    mainWindow.addMessage("L'écoute d'évenements n'aura pas lieu... :(", true);
+                    mainWindow.addMessage("L'écoute d'évenements n'aura pas lieu... :(, cause :" + e3.Message, true);
                 }
             }
             catch (Exception e)
@@ -175,7 +175,7 @@ namespace YANA
                     {
                         mainWindow.Invoke((MethodInvoker)delegate
                         {
-                            mainWindow.addMessage("Je ne peux pas  t'écouter... :(, vérifie l'url de yana-server et si celui si est bien activé", true);
+                            mainWindow.addMessage(Program.MSG_NO_SERVER_CONNEXION, true);
                         });
                         Function.error(error);
                     }
@@ -187,7 +187,7 @@ namespace YANA
             {
                 mainWindow.Invoke((MethodInvoker)delegate
                     {
-                        mainWindow.addMessage("Je ne peux pas  t'écouter... :(", true);
+                        mainWindow.addMessage(Program.MSG_NO_SERVER_CONNEXION, true);
                     });
                 Function.error(ex);
             }
@@ -294,6 +294,7 @@ namespace YANA
             }
             return instance;
         }
+
     }
 
 
