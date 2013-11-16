@@ -28,9 +28,9 @@ namespace YANA
         {
             this.commands = cmd;
             Choices commandChoices = new Choices();
-            commandChoices.Add("Montre toi");
-            commandChoices.Add("Cache toi");
-            commandChoices.Add("Relance toi");
+            commandChoices.Add("Yana, Montre toi");
+            commandChoices.Add("Yana, Cache toi");
+            commandChoices.Add("Yana, Relance toi");
 
             foreach (Json command in commands)
             {
@@ -104,7 +104,7 @@ namespace YANA
                 }
             }
 
-                if ("Montre toi" == e.Result.Text && e.Result.Confidence >= 0.85)
+                if ("Yana, Montre toi" == e.Result.Text && e.Result.Confidence >= 0.85)
                 {
                     MainWindow mainWindow = MainWindow.getInstance();
                     mainWindow.Invoke((MethodInvoker)delegate
@@ -112,7 +112,7 @@ namespace YANA
                         mainWindow.Show();
                     });
                 }
-                if ("Cache toi" == e.Result.Text && e.Result.Confidence >= 0.85)
+                if ("Yana, Cache toi" == e.Result.Text && e.Result.Confidence >= 0.85)
                 {
                     MainWindow mainWindow = MainWindow.getInstance();
                     mainWindow.Invoke((MethodInvoker)delegate
@@ -120,7 +120,7 @@ namespace YANA
                         mainWindow.Hide();
                     });
                 }
-                if ("Relance toi" == e.Result.Text && e.Result.Confidence >= 0.85)
+                if ("Yana, Relance toi" == e.Result.Text && e.Result.Confidence >= 0.85)
                 {
                     Application.Restart();
                 }
