@@ -178,3 +178,42 @@
 15/12/2013 13:06:40 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
  L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
    à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+15/12/2013 13:10:14 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+15/12/2013 13:10:22 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+15/12/2013 13:10:37 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+15/12/2013 13:10:54 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+15/12/2013 13:11:12 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+15/12/2013 13:11:20 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+15/12/2013 13:12:44 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+15/12/2013 13:12:52 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+15/12/2013 13:15:00 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+15/12/2013 13:15:07 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+15/12/2013 13:15:33 | <!> ERREUR: Timeout sur l'url :http://192.168.0.14/yana-server/action.php?action=GET_SPEECH_COMMAND&token=844c92e379000b7807c213c7107b336638fc2775 (url invalide ou yana-server inactif)
+15/12/2013 13:15:33 | <!> ERREUR: La demande a été abandonnée : La demande a été annulée.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+15/12/2013 13:15:53 | <!> ERREUR: Timeout sur l'url :http://192.168.0.14/yana-server/action.php?action=GET_EVENT&token=844c92e379000b7807c213c7107b336638fc2775 (url invalide ou yana-server inactif)
+15/12/2013 13:15:53 | <!> ERREUR: La demande a été abandonnée : La demande a été annulée.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+15/12/2013 13:16:32 | <!> ERREUR: Timeout sur l'url :http://192.168.0.14/yana-server/action.php?action=vocalinfo_sound&sound=pet.wav&token=844c92e379000b7807c213c7107b336638fc2775 (url invalide ou yana-server inactif)

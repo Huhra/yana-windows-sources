@@ -3,7 +3,9 @@
  * Licence Creative Commons -by -sa -nc
  * Feuille de style pour les fenetres de l'application
 **/
-
+body,html{
+	height:100%;
+}
 body,html,h1,div,ul{
 	margin:0;
 	font-family:Calibri,Arial,Verdana;
@@ -26,7 +28,7 @@ body,html,h1,div,ul{
 
 #messages{
     overflow:auto;
-    height:325px;
+    height:465px;
     padding-right:5px;
     scrollbar-face-color: #cecece;
     scrollbar-shadow-color: #ffffff;
