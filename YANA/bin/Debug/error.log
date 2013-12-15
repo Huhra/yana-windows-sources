@@ -146,3 +146,35 @@
 16/11/2013 15:39:39 | <!> ERREUR: Le serveur distant a retourné une erreur : (404) Introuvable.
  L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
    à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+15/12/2013 12:55:56 | <!> ERREUR: Timeout sur l'url :http://127.0.0.1/yana-server/action.php?action=GET_SPEECH_COMMAND&token=7eac0d0364e29a736d856f3ee8177621dc096371 (url invalide ou yana-server inactif)
+15/12/2013 12:55:56 | <!> ERREUR: La connexion sous-jacente a été fermée : Une erreur inattendue s'est produite lors de la réception.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+15/12/2013 12:56:00 | <!> ERREUR: Timeout sur l'url :http://127.0.0.1/yana-server/action.php?action=GET_EVENT&token=7eac0d0364e29a736d856f3ee8177621dc096371 (url invalide ou yana-server inactif)
+15/12/2013 12:56:00 | <!> ERREUR: La demande a été abandonnée : La demande a été annulée.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+15/12/2013 12:56:32 | <!> ERREUR: Timeout sur l'url :http://127.0.0.1/yana-server/action.php?action=GET_SPEECH_COMMAND&token=7eac0d0364e29a736d856f3ee8177621dc096371 (url invalide ou yana-server inactif)
+15/12/2013 12:56:33 | <!> ERREUR: La demande a été abandonnée : La demande a été annulée.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+15/12/2013 12:56:37 | <!> ERREUR: Timeout sur l'url :http://127.0.0.1/yana-server/action.php?action=GET_EVENT&token=7eac0d0364e29a736d856f3ee8177621dc096371 (url invalide ou yana-server inactif)
+15/12/2013 12:56:38 | <!> ERREUR: La demande a été abandonnée : La demande a été annulée.
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+15/12/2013 13:02:25 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 32
+15/12/2013 13:05:41 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 32
+15/12/2013 13:06:32 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 152
+15/12/2013 13:06:40 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51

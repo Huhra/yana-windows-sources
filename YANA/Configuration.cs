@@ -34,9 +34,11 @@ namespace YANA
         public void getConfiguration()
         {
             String fileContent = "";
+            String configurationPath = Function.getProjectPath() + fileName;
+            if (!File.Exists(configurationPath)) Function.writeFile(configurationPath, Program.DEFAULT_CONFIG);
             try
             {
-                String configurationPath = Function.getProjectPath() + fileName;
+                
                 configurationPath = Regex.Replace(configurationPath, "file:\\\\", "");
                 fileContent = Regex.Replace(File.ReadAllText(configurationPath), @"[\r\n\t ]+", " ");
                 fileContent = fileContent.Replace("({", "{");

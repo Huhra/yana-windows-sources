@@ -52,6 +52,9 @@ body,html,h1,div,ul{
 	width:100%;
 	color:#ffffff;
 	padding:10px;
+	position:fixed;
+	bottom:0px;
+	right:0px;
 }
 
 .logo{               
