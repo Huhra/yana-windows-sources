@@ -36,9 +36,76 @@ namespace YANA
 
             PromptBuilder p = new PromptBuilder();
             PromptStyle style = new PromptStyle();
-            style.Volume = PromptVolume.NotSet;
-            style.Rate = PromptRate.NotSet;
-            style.Emphasis = PromptEmphasis.NotSet;
+
+            
+            
+         
+
+            switch(Program.VOICE_VOLUME){
+                case 7:
+                     style.Volume = PromptVolume.Default;
+                break;
+                case 1:
+                     style.Volume = PromptVolume.Silent;
+                break;
+                case 2:
+                     style.Volume = PromptVolume.ExtraSoft;
+                break;
+                case 3:
+                     style.Volume = PromptVolume.Soft;
+                break;
+                case 4:
+                     style.Volume = PromptVolume.Medium;
+                break;
+                case 5:
+                     style.Volume = PromptVolume.Loud;
+                break;
+                case 6:
+                     style.Volume = PromptVolume.ExtraLoud;
+                break;
+                default:
+                    style.Volume = PromptVolume.NotSet;
+                break;
+            }
+            switch (Program.VOICE_SPEED)
+            {
+                    case 1:
+                    style.Rate = PromptRate.ExtraFast;
+                    break;
+                    case 2:
+                    style.Rate = PromptRate.Fast;
+                    break;
+                    case 3:
+                    style.Rate = PromptRate.Medium;
+                    break;
+                    case 4:
+                    style.Rate = PromptRate.Slow;
+                    break;
+                    case 5:
+                    style.Rate = PromptRate.ExtraSlow;
+                    break;
+                    default:
+                    style.Rate = PromptRate.NotSet;
+                    break;
+            }
+            switch (Program.VOICE_EMPHASIS)
+            {
+                    case 1:
+                       style.Emphasis = PromptEmphasis.Strong;
+                    break;
+                    case 2:
+                       style.Emphasis = PromptEmphasis.Moderate;
+                    break;
+                    case 3:
+                       style.Emphasis = PromptEmphasis.None;
+                    break;
+                    case 4:
+                       style.Emphasis = PromptEmphasis.Reduced;
+                    break;
+                    default:
+                       style.Emphasis = PromptEmphasis.NotSet;
+                    break;
+            }
 
             switch (styleName)
             {

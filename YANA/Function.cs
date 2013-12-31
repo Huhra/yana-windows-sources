@@ -126,5 +126,13 @@ namespace YANA
                 Console.WriteLine(ex.Message);
             }
         }
+
+        public static ComboboxItem addItem(string name, string id)
+        {
+            ComboboxItem item = new ComboboxItem();
+            item.Value = id;
+            item.Text = name;
+            return item;
+        }
     }
 }

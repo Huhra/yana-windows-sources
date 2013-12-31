@@ -26,6 +26,9 @@ namespace YANA
         public static bool LAUNCH_AT_STARTUP;
         public static string TOKEN;
         public static string SELECTED_VOICE;
+        public static int VOICE_EMPHASIS;
+        public static int VOICE_SPEED;
+        public static int VOICE_VOLUME;
         
         /// <summary>
         /// The main entry point for the application.

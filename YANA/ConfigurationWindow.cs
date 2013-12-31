@@ -19,7 +19,7 @@ namespace YANA
             this.Text = Program.PROGRAM_NAME + " V" + Program.PROGRAM_VERSION + " : Configuration";
             Configuration config = Configuration.getInstance();
             textAPI_URL.Text = config.get("API_URL");
-           
+
             textTOKEN.Text = config.get("TOKEN");
             for (int i = 1; i < 60; i++)
             {
@@ -36,16 +36,65 @@ namespace YANA
             }
 
             ReadOnlyCollection<InstalledVoice> voices = Vocal.getVoices();
-            for (int i=0;i<voices.Count;i++)
+            for (int i = 0; i < voices.Count; i++)
             {
                 InstalledVoice voice = voices[i];
                 VoiceInfo info = voice.VoiceInfo;
                 ComboboxItem item = new ComboboxItem();
                 item.Value = info.Name;
-                item.Text = info.Name + " (" + info.Gender+" "+info.Culture + ")";
+                item.Text = info.Name + " (" + info.Gender + " " + info.Culture + ")";
                 comboSELECTED_VOICE.Items.Add(item);
                 if (config.get("SELECTED_VOICE") == info.Name) comboSELECTED_VOICE.SelectedIndex = i;
             }
+
+
+
+            Dictionary<String,String> speedValues = new Dictionary<String,String>();
+            speedValues.Add("0","Non définis");
+            speedValues.Add("1","Très rapide");
+            speedValues.Add("2","Rapide");
+            speedValues.Add("3","Moyen");
+            speedValues.Add("4","Lent");
+            speedValues.Add("5","Très lent");
+
+            Dictionary<String, String> volumeValues = new Dictionary<String, String>();
+            volumeValues.Add("0", "Non définis");
+            volumeValues.Add("1", "Silencieux");
+            volumeValues.Add("2", "Très doux");
+            volumeValues.Add("3", "Doux");
+            volumeValues.Add("4", "Moyen");
+            volumeValues.Add("5", "Fort");
+            volumeValues.Add("6", "Très Fort");
+            volumeValues.Add("7", "Défaut");
+
+            Dictionary<String, String> emphasisValues = new Dictionary<String, String>();
+            emphasisValues.Add("0", "Non définis");
+            emphasisValues.Add("1", "Forte");
+            emphasisValues.Add("2", "Moyenne");
+            emphasisValues.Add("3", "Aucune");
+            emphasisValues.Add("4", "Réduite");
+
+            foreach( KeyValuePair<string, string> val in speedValues)
+            {
+                ComboboxItem item = Function.addItem(val.Value,val.Key);
+                comboVOICE_SPEED.Items.Add(item);
+                if (config.get("VOICE_SPEED") == val.Key) comboVOICE_SPEED.SelectedItem = item;
+            }
+            foreach (KeyValuePair<string, string> val in volumeValues)
+            {
+                ComboboxItem item = Function.addItem(val.Value, val.Key);
+                comboVOICE_VOLUME.Items.Add(item);
+                if (config.get("VOICE_VOLUME") == val.Key) comboVOICE_VOLUME.SelectedItem = item;
+            }
+            foreach (KeyValuePair<string, string> val in emphasisValues)
+            {
+                ComboboxItem item = Function.addItem(val.Value, val.Key);
+                comboVOICE_EMPHASIS.Items.Add(item);
+                if (config.get("VOICE_EMPHASIS") == val.Key) comboVOICE_EMPHASIS.SelectedItem = item;
+            }
+
+   
+
 
         }
 
@@ -74,8 +123,44 @@ namespace YANA
             Program.COMMAND_ACTION = config.get("COMMAND_ACTION");
             Program.TOKEN = config.get("TOKEN");
             Program.LAUNCH_AT_STARTUP = (config.get("LAUNCH_AT_STARTUP") == "1" ? true : false);
+
+
+            Program.VOICE_EMPHASIS = int.Parse(config.get("VOICE_EMPHASIS"));
+            Program.VOICE_SPEED = int.Parse(config.get("VOICE_SPEED"));
+            Program.VOICE_VOLUME = int.Parse(config.get("VOICE_VOLUME"));
+
             this.Hide();
             Application.Restart();
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboVOICE_SPEED_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ConfigurationWindow_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

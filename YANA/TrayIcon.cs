@@ -32,6 +32,9 @@ namespace YANA
                 Program.CHECK_INTERVAL = int.Parse(config.get("CHECK_INTERVAL"));
                 Program.API_URL = config.get("API_URL");
                 Program.SELECTED_VOICE = config.get("SELECTED_VOICE");
+                Program.VOICE_EMPHASIS = int.Parse(config.get("VOICE_EMPHASIS"));
+                Program.VOICE_SPEED = int.Parse(config.get("VOICE_SPEED"));
+                Program.VOICE_VOLUME = int.Parse(config.get("VOICE_VOLUME"));
                 Program.EVENT_ACTION = config.get("EVENT_ACTION");
                 Program.COMMAND_ACTION = config.get("COMMAND_ACTION");
                 Program.TOKEN = config.get("TOKEN");
@@ -74,6 +77,9 @@ namespace YANA
                 Program.CHECK_INTERVAL = int.Parse(config.get("CHECK_INTERVAL"));
                 Program.API_URL = config.get("API_URL");
                 Program.SELECTED_VOICE = config.get("SELECTED_VOICE");
+                Program.VOICE_EMPHASIS = int.Parse(config.get("VOICE_EMPHASIS"));
+                Program.VOICE_SPEED = int.Parse(config.get("VOICE_SPEED"));
+                Program.VOICE_VOLUME = int.Parse(config.get("VOICE_VOLUME"));
                 Program.EVENT_ACTION = config.get("EVENT_ACTION");
                 Program.COMMAND_ACTION = config.get("COMMAND_ACTION");
                 Program.LAUNCH_AT_STARTUP = (config.get("LAUNCH_AT_STARTUP") == "1" ? true : false);
@@ -97,7 +103,9 @@ namespace YANA
                 Function.log("Lancement au démarrage : " + Program.LAUNCH_AT_STARTUP);
                 Function.log("Fichier d'erreur : " + Program.ERROR_FILE);
                 Function.log("Voix utilisée : " + Program.SELECTED_VOICE);
-
+                Function.log("Voix - emphase : " + Program.VOICE_EMPHASIS);
+                Function.log("Voix - volume : " + Program.VOICE_VOLUME);
+                Function.log("Voix - vitesse : " + Program.VOICE_SPEED);
 
 
 

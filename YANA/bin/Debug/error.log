@@ -98,3 +98,53 @@
 14/11/2013 11:51:53 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
 14/11/2013 11:51:56 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
 14/11/2013 11:52:22 | <!> ERREUR: Impossible de parser la réponse: Unexpected character encountered while parsing value: <. Path '', line 0, position 0.
+31/12/2013 14:21:42 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 35
+31/12/2013 14:21:42 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 80
+31/12/2013 14:27:56 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 35
+31/12/2013 14:27:56 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 80
+31/12/2013 14:46:46 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 35
+31/12/2013 14:46:46 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 80
+31/12/2013 14:52:55 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 35
+31/12/2013 14:52:55 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 80
+31/12/2013 14:53:23 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 35
+31/12/2013 14:53:24 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 80

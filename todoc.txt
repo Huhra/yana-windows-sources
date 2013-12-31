@@ -1,0 +1,15 @@
+case "angry":
+                    style.Volume = PromptVolume.ExtraLoud;
+                    style.Rate = PromptRate.Fast;
+                    style.Emphasis = PromptEmphasis.Strong;
+                    break;
+                case "sad":
+                    style.Volume = PromptVolume.Soft;
+                    style.Rate = PromptRate.Slow;
+                    style.Emphasis = PromptEmphasis.None;
+                    break;
+                case "slow":
+                    style.Volume = PromptVolume.Medium;
+                    style.Rate = PromptRate.Slow;
+                    style.Emphasis = PromptEmphasis.None;
+                    break;
