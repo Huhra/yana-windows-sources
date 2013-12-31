@@ -16,7 +16,7 @@ namespace YANA
 
         //Initialisation des variables globales de configuration
         public static string PROGRAM_NAME = "YANA";
-        public static string PROGRAM_VERSION = "1.0.1";
+        public static string PROGRAM_VERSION = "1.0.3";
         public static string API_URL;
         public static int CHECK_INTERVAL;
         public static string SOUND_DIR = "sons/";
@@ -26,10 +26,26 @@ namespace YANA
         public static bool LAUNCH_AT_STARTUP;
         public static string TOKEN;
         public static string SELECTED_VOICE;
-        public static int VOICE_EMPHASIS;
-        public static int VOICE_SPEED;
-        public static int VOICE_VOLUME;
-        
+        public static string DEFAULT_CONFIG = @"({
+            ""API_URL"":""http://ip-raspberry/yana-server/action.php"",
+            ""SELECTED_VOICE"":""ScanSoft Virginie_Dri40_16kHz"",
+            ""CHECK_INTERVAL"":""5"",
+            ""PROXY_PORT"":""80"",
+            ""PROXY_HOST"":"""",
+            ""EVENT_ACTION"":""?action=GET_EVENT"",
+            ""COMMAND_ACTION"":""?action=GET_SPEECH_COMMAND"",
+            ""LAUNCH_AT_STARTUP"":""0"",
+            ""TOKEN"":""mon-token-ici""})";
+
+        public static string MSG_NO_SERVER_CONNEXION = @"Je ne peux pas  t'écouter :(, ceci peut être du a une mauvaise communication 
+        avec le serveur, vérifie que : <br/><hr/>
+        <ul>
+            <li>1) Tu m'a filé la bonne adresse vers yana-server</li>
+            <li>2) Tu m'a filé le bon token d'identification</li>
+            <li>3) Tu a bien lancé/installé/connecté yana-server</li>
+            <li>4) Je suis sur le même réseau que yana-server</li>
+        </ul><hr/>
+        Pour acceder aux configuration, fais clic droit sur l'icône de la barre de notification --> Configuration ";
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
