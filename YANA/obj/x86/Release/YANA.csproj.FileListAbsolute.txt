@@ -31,13 +31,10 @@ D:\Workspace\CS\yana-windows\YANA\obj\x86\Release\YANA.pdb
 C:\Workspace\CS\yana-windows-sources\YANA\bin\Release\YANA.exe
 C:\Workspace\CS\yana-windows-sources\YANA\bin\Release\YANA.pdb
 C:\Workspace\CS\yana-windows-sources\YANA\bin\Release\Newtonsoft.Json.dll
-C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Release\ResolveAssemblyReference.cache
 C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Release\YANA.ConfigurationWindow.resources
 C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Release\YANA.DebugWindow.resources
 C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Release\YANA.MainWindow.resources
 C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Release\YANA.Properties.Resources.resources
-C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Release\GenerateResource.read.1.tlog
-C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Release\GenerateResource.write.1.tlog
 C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Release\YANA.exe
 C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Release\YANA.pdb
 D:\Workspace\CS\yana-windows-sources\YANA\bin\Release\YANA.exe
@@ -52,3 +49,4 @@ D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Release\GenerateResource.read.
 D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Release\GenerateResource.write.1.tlog
 D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Release\YANA.exe
 D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Release\YANA.pdb
+C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Release\YANA.csproj.GenerateResource.Cache

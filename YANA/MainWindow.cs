@@ -33,21 +33,50 @@ namespace YANA
             String html = @"<html><head><style>" + YANA.Properties.Resources.style + @"</style></head>
                 <body>
                     <div class='header'>
-                        <div class='logo'><img  src='" + img + @"\YANA.png'></div><h1 style='margin:10px 0 0 10px;'>Yana</h1><a href='http://blog.idleman.fr' target='_blank' id='configButton' class='configButton'><img border='0' title='A propos' style='margin:20px' src='" + img + @"\config.png'></a>
+                        <div id='logo' class='logo' style='background:url(""" + img + @"\logo.png"") no-repeat;'>
+                            <div id='version'>"+Program.PROGRAM_VERSION+@"</div>
+                        </div>
+                    
+                        <img onclick='window.open(""http://blog.idleman.fr"");' id='aboutButton' class='aboutButton' border='0' title='A propos' src='" + img + @"\about.png'>
+                        <img id='logsButton' class='logsButton' border='0' title='Debug/Historique'src='" + img + @"\logs.png'>
+                        <img id='configButton' class='configButton' border='0' title='Configuration'src='" + img + @"\setting.png'>
                     </div>
                     <div id='content' class='content'>
-                        <img style='float:left;margin:30px 10px 0 10px;'  src='" + img + @"\ip_adress.png'>
-                        <h1 style='float:left;margin-top:25px;'>" + Regex.Replace(Program.API_URL, "http://", "") + @"</h1>
+                        <div class='urlInfo'>
+                        <img src='" + img + @"\ip_adress.png'>
+                        <h1>" + Regex.Replace(Program.API_URL, "http://", "") + @"</h1>
+                        </div>
                         <div style='clear:both;'></div>
                         <div id='messages'></div>
                     </div>
                      <div class='footer'>
-                       <p>" + Program.PROGRAM_NAME + " V" + Program.PROGRAM_VERSION + @" By Idleman - CC by nc sa</p>
+                       <p>" + Program.PROGRAM_NAME + " V" + Program.PROGRAM_VERSION + @" By Idleman - <img title='Programme sous licence CC by nc sa' onclick='window.open(""http://creativecommons.org/licenses/by-nc-sa/2.0/fr/"");' id='licenceButton' class='licenceButton' border='0' title='A propos' src='" + img + @"\ccbyncsa.png'>
+                        </p>
                     </div>
                 </body>
             </html>";
             webBrowserContent.Document.Write(html);
+
+
+            HtmlElement configButton = webBrowserContent.Document.GetElementById("configButton");
+            configButton.Click += new HtmlElementEventHandler(configButton_Click);
+
+
+            HtmlElement logsButton = webBrowserContent.Document.GetElementById("logsButton");
+            logsButton.Click += new HtmlElementEventHandler(logsButton_Click);
         }
+
+        void configButton_Click(object sender, HtmlElementEventArgs e)
+        {
+            ConfigurationWindow config = new ConfigurationWindow();
+            config.Show();
+        }
+        void logsButton_Click(object sender, HtmlElementEventArgs e)
+        {
+            DebugWindow debug = DebugWindow.getInstance();
+            debug.Show();
+        }
+      
 
 
 
@@ -101,6 +130,9 @@ namespace YANA
                     webBrowserContent.Document.GetElementById("messages").InnerHtml += "<div style='clear:both;'></div></div>";
                 }
                 webBrowserContent.Document.GetElementById("messages").ScrollTop += webBrowserContent.Document.GetElementById("messages").ScrollRectangle.Height;
+                
+               
+            
             }
             catch (Exception e)
             {
@@ -108,5 +140,12 @@ namespace YANA
 
             }
         }
+
+      
+
+       
+        
+
+      
     }
 }

@@ -51,7 +51,7 @@ namespace YANA
             <li>3) Tu a bien lancé/installé/connecté yana-server</li>
             <li>4) Je suis sur le même réseau que yana-server</li>
         </ul><hr/>
-        Pour acceder aux configuration, fais clic droit sur l'icône de la barre de notification --> Configuration ";
+        Pour acceder aux configurations, clique sur l'engrenage en haut à droite de cette fenêtre.";
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
