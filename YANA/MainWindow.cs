@@ -67,7 +67,7 @@ namespace YANA
 
             if (e.CloseReason == CloseReason.WindowsShutDown) return;
 
-            TrayIcon.timer.Stop();
+            if (null!=TrayIcon.timer) TrayIcon.timer.Stop();
             Application.ExitThread();
             Application.Exit();
         }

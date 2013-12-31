@@ -115,6 +115,14 @@ namespace YANA
             {
                 config.put("LAUNCH_AT_STARTUP", "0");
             }
+
+            item = (ComboboxItem)comboVOICE_EMPHASIS.SelectedItem;
+            config.put("VOICE_EMPHASIS", item.Value);
+            item = (ComboboxItem)comboVOICE_SPEED.SelectedItem;
+            config.put("VOICE_SPEED", item.Value);
+            item = (ComboboxItem)comboVOICE_VOLUME.SelectedItem;
+            config.put("VOICE_VOLUME", item.Value);
+
             config.save();
             Program.CHECK_INTERVAL = int.Parse(config.get("CHECK_INTERVAL"));
             Program.API_URL = config.get("API_URL");
@@ -125,9 +133,9 @@ namespace YANA
             Program.LAUNCH_AT_STARTUP = (config.get("LAUNCH_AT_STARTUP") == "1" ? true : false);
 
 
-            Program.VOICE_EMPHASIS = int.Parse(config.get("VOICE_EMPHASIS"));
-            Program.VOICE_SPEED = int.Parse(config.get("VOICE_SPEED"));
-            Program.VOICE_VOLUME = int.Parse(config.get("VOICE_VOLUME"));
+            Program.VOICE_EMPHASIS = config.get("VOICE_EMPHASIS") != "" ? int.Parse(config.get("VOICE_EMPHASIS")) : 0;
+            Program.VOICE_SPEED = config.get("VOICE_SPEED") != "" ? int.Parse(config.get("VOICE_SPEED")) : 0;
+            Program.VOICE_VOLUME = config.get("VOICE_VOLUME") != "" ? int.Parse(config.get("VOICE_VOLUME")) : 0;
 
             this.Hide();
             Application.Restart();

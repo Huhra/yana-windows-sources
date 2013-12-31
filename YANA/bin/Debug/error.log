@@ -217,3 +217,85 @@
  L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
    à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
 15/12/2013 13:16:32 | <!> ERREUR: Timeout sur l'url :http://192.168.0.14/yana-server/action.php?action=vocalinfo_sound&sound=pet.wav&token=844c92e379000b7807c213c7107b336638fc2775 (url invalide ou yana-server inactif)
+31/12/2013 15:01:01 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 35
+31/12/2013 15:01:01 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 80
+31/12/2013 15:02:32 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 35
+31/12/2013 15:02:32 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 80
+31/12/2013 15:03:00 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 35
+31/12/2013 15:03:00 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 80
+31/12/2013 15:04:17 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 35
+31/12/2013 15:04:17 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 80
+31/12/2013 15:04:54 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 35
+31/12/2013 15:04:54 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 80
+31/12/2013 15:05:05 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 35
+31/12/2013 15:05:05 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 80
+31/12/2013 15:07:10 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 35
+31/12/2013 15:07:10 | <!> ERREUR: Le format de la chaîne d'entrée est incorrect.
+ L: 0 |    à System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+   à System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+   à System.Int32.Parse(String s)
+   à YANA.TrayIcon..ctor() dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 80
+31/12/2013 15:07:31 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 160
+31/12/2013 15:07:38 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+31/12/2013 15:08:21 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 160
+31/12/2013 15:08:28 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans C:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51

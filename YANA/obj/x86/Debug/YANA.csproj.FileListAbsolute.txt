@@ -62,13 +62,10 @@ D:\Workspace\CS\yana-windows\YANA\obj\x86\Debug\GenerateResource.read.1.tlog
 D:\Workspace\CS\yana-windows\YANA\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\YANA.exe
 C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\YANA.pdb
-C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\YANA.ConfigurationWindow.resources
 C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\YANA.DebugWindow.resources
 C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\YANA.MainWindow.resources
 C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\YANA.Properties.Resources.resources
-C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Workspace\CS\yana-windows-sources\YANA\bin\Debug\YANA.exe
 C:\Workspace\CS\yana-windows-sources\YANA\bin\Debug\YANA.pdb
 D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\YANA.exe
@@ -82,3 +79,5 @@ D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\YANA.MainWindow.resource
 D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\YANA.Properties.Resources.resources
 D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\GenerateResource.read.1.tlog
 D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\YANA.csprojResolveAssemblyReference.cache
+C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Debug\YANA.csproj.GenerateResource.Cache
