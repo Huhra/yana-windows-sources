@@ -37,6 +37,8 @@
             this.textTOKEN = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.comboCHECK_INTERVAL = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -53,6 +55,8 @@
             this.comboVOICE_SPEED = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textREQUEST_TIMEOUT = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -82,7 +86,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(8, 76);
+            this.label3.Location = new System.Drawing.Point(9, 30);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(236, 13);
@@ -92,7 +96,7 @@
             // checkLAUNCH_AT_STARTUP
             // 
             this.checkLAUNCH_AT_STARTUP.AutoSize = true;
-            this.checkLAUNCH_AT_STARTUP.Location = new System.Drawing.Point(10, 128);
+            this.checkLAUNCH_AT_STARTUP.Location = new System.Drawing.Point(9, 114);
             this.checkLAUNCH_AT_STARTUP.Margin = new System.Windows.Forms.Padding(2);
             this.checkLAUNCH_AT_STARTUP.Name = "checkLAUNCH_AT_STARTUP";
             this.checkLAUNCH_AT_STARTUP.Size = new System.Drawing.Size(140, 17);
@@ -103,7 +107,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(10, 73);
+            this.label4.Location = new System.Drawing.Point(9, 106);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(108, 13);
@@ -112,7 +116,7 @@
             // 
             // textTOKEN
             // 
-            this.textTOKEN.Location = new System.Drawing.Point(10, 89);
+            this.textTOKEN.Location = new System.Drawing.Point(9, 122);
             this.textTOKEN.Margin = new System.Windows.Forms.Padding(2);
             this.textTOKEN.Name = "textTOKEN";
             this.textTOKEN.Size = new System.Drawing.Size(282, 20);
@@ -131,6 +135,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label11);
+            this.groupBox1.Controls.Add(this.label10);
             this.groupBox1.Controls.Add(this.textAPI_URL);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label4);
@@ -139,22 +145,48 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox1.Size = new System.Drawing.Size(301, 125);
+            this.groupBox1.Size = new System.Drawing.Size(301, 171);
             this.groupBox1.TabIndex = 10;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Connection et authentification";
             // 
+            // label11
+            // 
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label11.Location = new System.Drawing.Point(10, 147);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(279, 21);
+            this.label11.TabIndex = 10;
+            this.label11.Text = "Numéro fournis sur la page d\'accueil de votre yana server";
+            // 
+            // label10
+            // 
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label10.Location = new System.Drawing.Point(10, 68);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(279, 33);
+            this.label10.TabIndex = 9;
+            this.label10.Text = "Adresse entiere (avec http://) suivis de action.php, exemple : http://127.0.0.1/y" +
+                "ana-server/action.php";
+            this.label10.Click += new System.EventHandler(this.label10_Click);
+            // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.textREQUEST_TIMEOUT);
+            this.groupBox2.Controls.Add(this.label12);
             this.groupBox2.Controls.Add(this.comboCHECK_INTERVAL);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.checkLAUNCH_AT_STARTUP);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Location = new System.Drawing.Point(8, 145);
+            this.groupBox2.Location = new System.Drawing.Point(8, 180);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBox2.Size = new System.Drawing.Size(301, 184);
+            this.groupBox2.Size = new System.Drawing.Size(301, 135);
             this.groupBox2.TabIndex = 11;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Avancé";
@@ -185,7 +217,7 @@
             "20",
             "21",
             "22"});
-            this.comboCHECK_INTERVAL.Location = new System.Drawing.Point(10, 94);
+            this.comboCHECK_INTERVAL.Location = new System.Drawing.Point(11, 48);
             this.comboCHECK_INTERVAL.Margin = new System.Windows.Forms.Padding(2);
             this.comboCHECK_INTERVAL.Name = "comboCHECK_INTERVAL";
             this.comboCHECK_INTERVAL.Size = new System.Drawing.Size(41, 21);
@@ -194,7 +226,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(54, 97);
+            this.label5.Location = new System.Drawing.Point(55, 51);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(168, 13);
@@ -346,6 +378,24 @@
             this.label7.TabIndex = 8;
             this.label7.Text = "Volume";
             // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(55, 86);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(70, 13);
+            this.label12.TabIndex = 9;
+            this.label12.Text = "mili-secondes";
+            // 
+            // textREQUEST_TIMEOUT
+            // 
+            this.textREQUEST_TIMEOUT.Location = new System.Drawing.Point(9, 83);
+            this.textREQUEST_TIMEOUT.Margin = new System.Windows.Forms.Padding(2);
+            this.textREQUEST_TIMEOUT.Name = "textREQUEST_TIMEOUT";
+            this.textREQUEST_TIMEOUT.Size = new System.Drawing.Size(43, 20);
+            this.textREQUEST_TIMEOUT.TabIndex = 10;
+            // 
             // ConfigurationWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -398,5 +448,9 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ComboBox comboSELECTED_VOICE;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.TextBox textREQUEST_TIMEOUT;
+        private System.Windows.Forms.Label label12;
     }
 }

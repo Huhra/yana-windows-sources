@@ -20,6 +20,8 @@ namespace YANA
             Configuration config = Configuration.getInstance();
             textAPI_URL.Text = config.get("API_URL");
 
+            textREQUEST_TIMEOUT.Text = config.get("REQUEST_TIMEOUT");
+
             textTOKEN.Text = config.get("TOKEN");
             for (int i = 1; i < 60; i++)
             {
@@ -100,11 +102,17 @@ namespace YANA
 
         private void button1_Click(object sender, EventArgs e)
         {
+
             Configuration config = Configuration.getInstance();
             config.put("CHECK_INTERVAL", comboCHECK_INTERVAL.Text);
             config.put("API_URL", textAPI_URL.Text);
+            config.put("REQUEST_TIMEOUT", textREQUEST_TIMEOUT.Text);
+
             ComboboxItem item = (ComboboxItem)comboSELECTED_VOICE.SelectedItem;
-            config.put("SELECTED_VOICE", item.Value);
+            ReadOnlyCollection<InstalledVoice> voices = Vocal.getVoices();
+            VoiceInfo info = voices[0].VoiceInfo;
+            config.put("SELECTED_VOICE", item != null ? item.Value : info.Name);
+            
             config.put("TOKEN", textTOKEN.Text);
 
             if (checkLAUNCH_AT_STARTUP.Checked)
@@ -132,10 +140,13 @@ namespace YANA
             Program.TOKEN = config.get("TOKEN");
             Program.LAUNCH_AT_STARTUP = (config.get("LAUNCH_AT_STARTUP") == "1" ? true : false);
 
-
+            Program.REQUEST_TIMEOUT = config.get("REQUEST_TIMEOUT") != "" ? int.Parse(config.get("REQUEST_TIMEOUT")) : 0;
             Program.VOICE_EMPHASIS = config.get("VOICE_EMPHASIS") != "" ? int.Parse(config.get("VOICE_EMPHASIS")) : 0;
             Program.VOICE_SPEED = config.get("VOICE_SPEED") != "" ? int.Parse(config.get("VOICE_SPEED")) : 0;
             Program.VOICE_VOLUME = config.get("VOICE_VOLUME") != "" ? int.Parse(config.get("VOICE_VOLUME")) : 0;
+
+           
+
 
             this.Hide();
             Application.Restart();
@@ -167,6 +178,11 @@ namespace YANA
         }
 
         private void ConfigurationWindow_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
         {
 
         }

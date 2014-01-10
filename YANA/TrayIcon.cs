@@ -34,6 +34,7 @@ namespace YANA
                 Program.SELECTED_VOICE = config.get("SELECTED_VOICE");
                 Program.VOICE_EMPHASIS = int.Parse(config.get("VOICE_EMPHASIS"));
                 Program.VOICE_SPEED = int.Parse(config.get("VOICE_SPEED"));
+                Program.REQUEST_TIMEOUT = int.Parse(config.get("REQUEST_TIMEOUT"));
                 Program.VOICE_VOLUME = int.Parse(config.get("VOICE_VOLUME"));
                 Program.EVENT_ACTION = config.get("EVENT_ACTION");
                 Program.COMMAND_ACTION = config.get("COMMAND_ACTION");
@@ -83,7 +84,7 @@ namespace YANA
                 Program.EVENT_ACTION = config.get("EVENT_ACTION");
                 Program.COMMAND_ACTION = config.get("COMMAND_ACTION");
                 Program.LAUNCH_AT_STARTUP = (config.get("LAUNCH_AT_STARTUP") == "1" ? true : false);
-
+                Program.REQUEST_TIMEOUT = int.Parse(config.get("REQUEST_TIMEOUT"));
 
                 //Lancement au démarrage si la configuration LAUNCH_AT_STARTUP est à "1"
                 try
@@ -106,6 +107,7 @@ namespace YANA
                 Function.log("Voix - emphase : " + Program.VOICE_EMPHASIS);
                 Function.log("Voix - volume : " + Program.VOICE_VOLUME);
                 Function.log("Voix - vitesse : " + Program.VOICE_SPEED);
+                Function.log("Requete - timeout : " + Program.REQUEST_TIMEOUT+" ms");
 
 
 
@@ -176,6 +178,15 @@ namespace YANA
 
                         mainWindow.Invoke((MethodInvoker)delegate
                         {
+                            String commandList = "<li>YANA, Cache toi</li>";
+                            commandList += "<li>YANA, Montre toi</li>";
+                            commandList += "<li>YANA, Relance toi</li>";
+                            foreach (Json command in commands)
+                            {
+                                commandList += "<li>" + command.fGetString("command") + "</li>";
+                            }
+                            mainWindow.setCommands("<ul>"+commandList+"</ul>");
+
                             mainWindow.addMessage("Je peux maintenant t'écouter... :)", true);
                         });
                     }

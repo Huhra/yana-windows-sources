@@ -29,10 +29,12 @@ namespace YANA
         public static int VOICE_EMPHASIS;
         public static int VOICE_VOLUME;
         public static int VOICE_SPEED;
+        public static int REQUEST_TIMEOUT = 2000;
         public static string DEFAULT_CONFIG = @"({
             ""API_URL"":""http://ip-raspberry/yana-server/action.php"",
             ""SELECTED_VOICE"":""ScanSoft Virginie_Dri40_16kHz"",
             ""CHECK_INTERVAL"":""5"",
+            ""REQUEST_TIMEOUT"":""2000"",
             ""PROXY_PORT"":""80"",
             ""PROXY_HOST"":"""",
             ""EVENT_ACTION"":""?action=GET_EVENT"",
@@ -69,6 +71,7 @@ namespace YANA
        
         }
 
-        
+
+
     }
 }

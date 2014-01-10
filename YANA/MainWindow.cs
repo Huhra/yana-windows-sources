@@ -39,6 +39,7 @@ namespace YANA
                     
                         <img onclick='window.open(""http://blog.idleman.fr"");' id='aboutButton' class='aboutButton' border='0' title='A propos' src='" + img + @"\about.png'>
                         <img id='logsButton' class='logsButton' border='0' title='Debug/Historique'src='" + img + @"\logs.png'>
+                        <img id='commandsButton' class='commandsButton' border='0' title='Liste des commandes'src='" + img + @"\commands.png'>
                         <img id='configButton' class='configButton' border='0' title='Configuration'src='" + img + @"\setting.png'>
                     </div>
                     <div id='content' class='content'>
@@ -47,6 +48,7 @@ namespace YANA
                         <h1>" + Regex.Replace(Program.API_URL, "http://", "") + @"</h1>
                         </div>
                         <div style='clear:both;'></div>
+                        <div id='commands'></div>
                         <div id='messages'></div>
                     </div>
                      <div class='footer'>
@@ -64,6 +66,22 @@ namespace YANA
 
             HtmlElement logsButton = webBrowserContent.Document.GetElementById("logsButton");
             logsButton.Click += new HtmlElementEventHandler(logsButton_Click);
+
+
+            HtmlElement commandsButton = webBrowserContent.Document.GetElementById("commandsButton");
+            commandsButton.Click += new HtmlElementEventHandler(commandsButton_Click);
+
+        }
+
+        void commandsButton_Click(object sender, HtmlElementEventArgs e)
+        {
+            if (webBrowserContent.Document.GetElementById("commands").Style != "DISPLAY: block")
+            {
+                webBrowserContent.Document.GetElementById("commands").Style =  "display:block;";   
+            }else{
+                webBrowserContent.Document.GetElementById("commands").Style = "";
+             
+            }
         }
 
         void configButton_Click(object sender, HtmlElementEventArgs e)
@@ -109,6 +127,11 @@ namespace YANA
                 return;
             }
             base.WndProc(ref m);
+        }
+
+        public void setCommands(String commands)
+        {
+            webBrowserContent.Document.GetElementById("commands").InnerHtml += "<ul>" + commands + "</ul>";    
         }
 
         public void addMessage(String message, bool send)

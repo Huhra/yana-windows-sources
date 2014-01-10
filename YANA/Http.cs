@@ -30,7 +30,7 @@ namespace YANA
             //request.Timeout = 2000;
             request.Proxy = null;
             IAsyncResult result = (IAsyncResult)request.BeginGetResponse(method, request);
-            ThreadPool.RegisterWaitForSingleObject(result.AsyncWaitHandle, new WaitOrTimerCallback(TimeoutCallback), request, 2000, true);
+            ThreadPool.RegisterWaitForSingleObject(result.AsyncWaitHandle, new WaitOrTimerCallback(TimeoutCallback), request, Program.REQUEST_TIMEOUT, true);
 
         }
 
