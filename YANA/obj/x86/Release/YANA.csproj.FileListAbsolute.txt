@@ -50,3 +50,14 @@ D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Release\GenerateResource.write
 D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Release\YANA.exe
 D:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Release\YANA.pdb
 C:\Workspace\CS\yana-windows-sources\YANA\obj\x86\Release\YANA.csproj.GenerateResource.Cache
+C:\Users\remi\Documents\GitHub\yana-windows-sources\YANA\obj\x86\Release\YANA.exe
+C:\Users\remi\Documents\GitHub\yana-windows-sources\YANA\obj\x86\Release\YANA.pdb
+C:\Users\remi\Documents\GitHub\yana-windows-sources\YANA\bin\Release\YANA.exe
+C:\Users\remi\Documents\GitHub\yana-windows-sources\YANA\bin\Release\YANA.pdb
+C:\Users\remi\Documents\GitHub\yana-windows-sources\YANA\bin\Release\Newtonsoft.Json.dll
+C:\Users\remi\Documents\GitHub\yana-windows-sources\YANA\obj\x86\Release\YANA.csprojResolveAssemblyReference.cache
+C:\Users\remi\Documents\GitHub\yana-windows-sources\YANA\obj\x86\Release\YANA.ConfigurationWindow.resources
+C:\Users\remi\Documents\GitHub\yana-windows-sources\YANA\obj\x86\Release\YANA.DebugWindow.resources
+C:\Users\remi\Documents\GitHub\yana-windows-sources\YANA\obj\x86\Release\YANA.MainWindow.resources
+C:\Users\remi\Documents\GitHub\yana-windows-sources\YANA\obj\x86\Release\YANA.Properties.Resources.resources
+C:\Users\remi\Documents\GitHub\yana-windows-sources\YANA\obj\x86\Release\YANA.csproj.GenerateResource.Cache

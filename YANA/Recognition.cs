@@ -130,22 +130,35 @@ namespace YANA
 
         public static void receive(IAsyncResult result)
         {
-            HttpWebResponse response = (result.AsyncState as HttpWebRequest).EndGetResponse(result) as HttpWebResponse;
-            using (Stream responseStream = response.GetResponseStream())
-            using (StreamReader sr = new StreamReader(responseStream))
+            //MadItNerd : J'ai rajouté un try ici pour éviter les plantages
+            try
             {
-                String responseText = sr.ReadToEnd();
-                Function.log("Reponse :" + responseText);
-                try
+                HttpWebResponse response = (result.AsyncState as HttpWebRequest).EndGetResponse(result) as HttpWebResponse;
+                using (Stream responseStream = response.GetResponseStream())
+                using (StreamReader sr = new StreamReader(responseStream))
                 {
-                    MainWindow mainWindow = MainWindow.getInstance();
-                    Json jsonResponse = new Json(responseText);
-                    Control.handleResponse(jsonResponse);
+                    String responseText = sr.ReadToEnd();
+                    Function.log("Reponse :" + responseText);
+                    try
+                    {
+                        MainWindow mainWindow = MainWindow.getInstance();
+                        Json jsonResponse = new Json(responseText);
+                        Control.handleResponse(jsonResponse);
+                    }
+                    catch (Exception error)
+                    {
+                        Function.error(error);
+                    }
                 }
-                catch (Exception error)
+            }
+            catch (WebException e)
+            {
+                MainWindow mainWindow = MainWindow.getInstance();
+                mainWindow.Invoke((MethodInvoker)delegate
                 {
-                    Function.error(error);
-                }
+                    mainWindow.addMessage("Le serveur n'a pas répondu/ou trop lentement!", true);
+                });
+                Function.error("yana-server inactif/trop lent à répondre)");
             }
         }
 
