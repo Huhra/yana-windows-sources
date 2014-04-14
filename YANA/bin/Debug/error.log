@@ -672,3 +672,42 @@
 17/02/2014 07:21:44 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
  L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
    à YANA.TrayIcon.receive(IAsyncResult result) dans c:\Users\remi\Documents\GitHub\yana-windows-sources\YANA\TrayIcon.cs:ligne 162
+14/04/2014 18:47:43 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 162
+14/04/2014 18:47:51 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+14/04/2014 20:05:58 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 162
+14/04/2014 20:06:06 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+14/04/2014 20:07:15 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 162
+14/04/2014 20:07:23 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+14/04/2014 20:09:14 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 162
+14/04/2014 20:10:22 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 162
+14/04/2014 20:10:30 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+14/04/2014 20:11:15 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 162
+14/04/2014 20:11:22 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51
+14/04/2014 20:29:59 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.TrayIcon.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\TrayIcon.cs:ligne 162
+14/04/2014 20:30:07 | <!> ERREUR: Le nom distant n'a pas pu être résolu: 'ip-raspberry'
+ L: 0 |    à System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   à YANA.Control.receive(IAsyncResult result) dans D:\Workspace\CS\yana-windows-sources\YANA\Control.cs:ligne 51

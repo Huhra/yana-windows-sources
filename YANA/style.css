@@ -160,7 +160,9 @@ body,html{
     display:block;
 	margin:7px;
 }
-
+#configButton:hover,#logsButton:hover,#aboutButton:hover,#commandsButton:hover{
+	background-color:#cecece;
+}
 
 #configButton{
 

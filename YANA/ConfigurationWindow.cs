@@ -144,9 +144,9 @@ namespace YANA
             Program.VOICE_EMPHASIS = config.get("VOICE_EMPHASIS") != "" ? int.Parse(config.get("VOICE_EMPHASIS")) : 0;
             Program.VOICE_SPEED = config.get("VOICE_SPEED") != "" ? int.Parse(config.get("VOICE_SPEED")) : 0;
             Program.VOICE_VOLUME = config.get("VOICE_VOLUME") != "" ? int.Parse(config.get("VOICE_VOLUME")) : 0;
-
+            Program.REQUEST_TIMEOUT = config.get("REQUEST_TIMEOUT") != "" ? int.Parse(config.get("REQUEST_TIMEOUT")) : 0;
            
-
+            
 
             this.Hide();
             Application.Restart();
@@ -183,6 +183,11 @@ namespace YANA
         }
 
         private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label12_Click(object sender, EventArgs e)
         {
 
         }

@@ -47,7 +47,7 @@ namespace YANA
                     {
                         mainWindow.addMessage("Ton URL m'a l'air foireuse, ou ton serveur n'est pas allumé", true);
                     });
-                    Function.error("Timeout sur l'url :" + request.RequestUri + " (url invalide ou yana-server inactif)");
+                    Function.error("Timeout sur l'url :" + request.RequestUri + " (url invalide ou yana-server inactif, si votre réseau est lent, tentez d'augmenter le timeout dans les configurations)");
                     request.Abort();
                 }
             }

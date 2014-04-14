@@ -37,10 +37,12 @@ namespace YANA
                             <div id='version'>"+Program.PROGRAM_VERSION+@"</div>
                         </div>
                     
-                        <img onclick='window.open(""http://blog.idleman.fr"");' id='aboutButton' class='aboutButton' border='0' title='A propos' src='" + img + @"\about.png'>
-                        <img id='logsButton' class='logsButton' border='0' title='Debug/Historique'src='" + img + @"\logs.png'>
-                        <img id='commandsButton' class='commandsButton' border='0' title='Liste des commandes'src='" + img + @"\commands.png'>
-                        <img id='configButton' class='configButton' border='0' title='Configuration'src='" + img + @"\setting.png'>
+                        <ul>
+                            <li id='aboutButton'><img onclick='window.open(""http://blog.idleman.fr"");'  class='aboutButton' border='0' title='A propos' src='" + img + @"\about.png'></li>
+                            <li id='logsButton'><img  class='logsButton' border='0' title='Debug/Historique'src='" + img + @"\logs.png'></li>
+                            <li id='commandsButton' ><img class='commandsButton' border='0' title='Liste des commandes'src='" + img + @"\commands.png'></li>
+                            <li id='configButton'><img  class='configButton' border='0' title='Configuration'src='" + img + @"\setting.png'></li>
+                        </ul>
                     </div>
                     <div id='content' class='content'>
                         <div class='urlInfo'>
